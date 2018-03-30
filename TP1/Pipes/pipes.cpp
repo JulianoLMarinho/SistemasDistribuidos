@@ -11,8 +11,8 @@ using namespace std;
 
 int deltaAleatorio(int i, int f){
   srand((unsigned)time(0));
-  int maior = i;
-  int menor = f;
+  int maior = f;
+  int menor = i;
   return rand()%(maior-menor+1) + menor;
 }
 
@@ -28,7 +28,7 @@ bool primo(int i){
   return true;
 }
 
-void pipe_ipc(){
+void pipe_ipc(int interacoes){
   int pipefd[2];
   pid_t pid;
   int n = 1;
@@ -63,7 +63,7 @@ void pipe_ipc(){
     int delta = deltaAleatorio(1, 100);
     do{
       n = 1+delta*count;
-      if(count==1000){n = 0;};
+      if(count==interacoes){n = 0;};
       write(pipefd[1], (char *)&n, sizeof(n));
       count++;
     }while(!n==0);
@@ -76,6 +76,6 @@ void pipe_ipc(){
 
 
 int main(){
-  pipe_ipc();
+  pipe_ipc(50);
   return 0;
 }
