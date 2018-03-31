@@ -10,23 +10,31 @@
 
 using namespace std;
 
+int deltaAleatorio(int i, int f){
+  srand((unsigned)time(0));
+  int maior = f;
+  int menor = i;
+  return rand()%(maior-menor+1) + menor;
+}
+
+
 
 int main(){
   int socket_desc;
   struct sockaddr_in server;
   socket_desc = socket(AF_INET, SOCK_STREAM, 0);
-  const char *message;
-  char server_reply[2000];
+  string message;
+  char *server_reply;
   //retorna um descritor que poderá ser usado em qualquer outra função com os parâmetros: Adress Family, Type e protocolo
   //O tipo SOCK_STREAM indica que a conexão será TCP
   if(socket_desc==-1){
-    cout<<"Coul not create socket"<<endl;
+    cout<<"Could not create socket"<<endl;
   }
 
 
-  server.sin_addr.s_addr = inet_addr("172.217.29.110");
+  server.sin_addr.s_addr = inet_addr("127.0.0.1");
   server.sin_family = AF_INET;
-  server.sin_port = htons(80);
+  server.sin_port = htons(8888);
 
   if(connect(socket_desc, (struct sockaddr *)&server, sizeof(server))<0){
     cout<<"Erro na conexão"<<endl;
@@ -34,18 +42,26 @@ int main(){
   }
   cout<<"Conectado"<<endl;
 
-  message = "GET / HTTP/1.1\r\n\r\n";
-  if(send(socket_desc, message, strlen(message), 0) < 0){
-    cout<<"Falha no envio da mensagem"<<endl;
-    return 1;
-  }
-  cout<<"Mensagem Enviada"<<endl;
+  int count = 0;
+  int n;
+  int delta = deltaAleatorio(1, 100);
+  int interacoes = 5000;
+  do{
+    n = 1 + delta*count;
+    message=to_string(n);
+    if(count==interacoes){n = 0;};
+    if(write(socket_desc, (char *)&n, sizeof(n)) < 0){
+      cout<<"Falha no envio da mensagem"<<endl;
+      return 1;
+    }
+    if(read(socket_desc, server_reply, 30)<0){
+      cout<<"Erro na resposta"<<endl;
+    }
+    if(n>0){cout<<server_reply<<endl;}
+    count++;
+  }while(n>0);
 
-  if(read(socket_desc, server_reply, 2000)<0){
-    cout<<"Erro na resposta"<<endl;
-  }
-  cout<<"Resposta recebida"<<endl;
-  cout<<server_reply<<endl;
+  cout<<"Produtor encerrado"<<endl;
 
   close(socket_desc);
   return 0;
