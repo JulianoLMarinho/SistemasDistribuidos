@@ -75,7 +75,7 @@ void pipe_ipc(int interacoes){
 }
 
 
-int main(){
-  pipe_ipc(50);
+int main(int argc, char *argv[]){
+  pipe_ipc(atoi(argv[1]));
   return 0;
 }

@@ -18,7 +18,7 @@ int deltaAleatorio(int i, int f){
 
 
 
-int main(){
+int main(int argc, char *argv[]){
   int socket_desc;
   struct sockaddr_in server;
   socket_desc = socket(AF_INET, SOCK_STREAM, 0);
@@ -44,7 +44,7 @@ int main(){
   int count = 0;
   int n;
   int delta = deltaAleatorio(1, 100);
-  int interacoes = 5000;
+  int interacoes = atoi(argv[1]);
   do{
     n = 1 + delta*count;
     message=to_string(n);
