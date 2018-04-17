@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/juliano/Projetos/Sistemas Distribuídos/TP2/Somador/main.cpp
+/home/juliano/Projetos/Sistemas Distribuídos/TP2/PCSemaforo/main.cpp
 iostream
 -
-atomic
+vector
 -
-random
--
-thread
--
-numeric
--
-time.h
+semaphore.h
 -
 

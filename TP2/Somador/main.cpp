@@ -2,7 +2,9 @@
 #include <atomic>
 #include <random>
 #include <thread>
-#include <numeric>
+#include <chrono>
+
+
 
 using namespace std;
 
@@ -39,47 +41,54 @@ void Soma(long int &soma, vector<char> &vetorParcial, Spinlock &spinlock, int be
     spinlock.release();
 }
 
-void test(long int &soma, int &k, Spinlock &spinlock){
-    spinlock.acquire();
-        soma++;
-    spinlock.release();
-}
-
 int main(int argc, char *argv[]) {
+    clock_t beginV, endV;
     Spinlock spinlock;
-    long int somas = 0;
-    long int somaTeste = 0;
-    int j = 0;
-    spinlock.acquire();
-    int N = atoi(argv[1]);
-    int K = atoi(argv[2]);
-    spinlock.release();
-
     long int Nu[3] = {10000000, 100000000, 1000000000};
     int Ku[9] = {1, 2, 4, 8, 16, 32, 64, 128, 256};
 
-    vector<char> vetor(N);
-    vector<thread> threads;
-    generateRandomVector(N, vetor);
+    vector<char> vetor(1000000000);
 
-    vector<vector<char>>temp;
+    beginV = clock();
+    generateRandomVector(1000000000, vetor);
+    endV = clock();
 
-    for(int i = 0; i<N; i += N/K){
-        threads.emplace_back(Soma, ref(somas), ref(vetor), ref(spinlock), i, i+N/K);
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<9; j++){
+            double totalTime = 0.0;
+            for(int z = 0; z<10; z++){
+                long int somas = 0;
+
+                vector<thread> threads;
+
+                double NK = Nu[i]*1.0/Ku[j];
+
+                auto ll = static_cast<int>(Nu[i] - (floor(NK) * Ku[j]));
+
+                auto begin = chrono::system_clock::now();
+                for(long int k = 0; k<Nu[i]; k += NK){
+                    auto temp = static_cast<int>(k + NK);
+                    if(k+ll == Nu[i]){
+                        temp = static_cast<int>(Nu[i]);
+                    }
+                    threads.emplace_back(Soma, ref(somas), ref(vetor), ref(spinlock), k, temp);
+                }
+
+                for (thread & t : threads) {
+                    t.join();
+                }
+                auto end = chrono::system_clock::now();
+
+                double timeThread = chrono::duration<double, std::milli>(end- begin).count();
+                totalTime+=timeThread;
+            }
+
+            cout<<"N: "<<Nu[i]<<", K: "<<Ku[j]<<", Time Thread: "<<totalTime/10.0<<"ms"<<endl;
+        }
+
+
     }
 
-    for(int i = 0; i < N; i++){
-        somaTeste+=vetor[i];
-    }
-
-
-
-    for (thread & t : threads) {
-        t.join();
-    }
-
-    cout<<somas<<endl;
-    cout<<somaTeste<<endl;
 
 
     return 0;
