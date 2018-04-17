@@ -1,3 +1,0 @@
-/home/juliano/Projetos/Sistemas Distribuídos/TP2/PCSemaforo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/juliano/Projetos/Sistemas Distribuídos/TP2/PCSemaforo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/juliano/Projetos/Sistemas Distribuídos/TP2/PCSemaforo/cmake-build-debug/CMakeFiles/PCSemaforo.dir
