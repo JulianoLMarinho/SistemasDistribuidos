@@ -1,0 +1,201 @@
+id; lamport; mensagem
+1;1;Man is born free, but is everywhere in chains
+2;3;He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god
+1;5;Science is what you know. Philosophy is what you don't know
+2;7;Good and evil, reward and punishment, are the only motives to a rational creature
+1;9;The unexamined life is not worth living
+2;11;The mind is furnished with ideas by experience alone
+1;13;The unexamined life is not worth living
+2;15;We live in the best of all possible worlds
+1;17;What is rational is actual and what is actual is rational
+2;19;Man is condemned to be free
+1;21;Happiness is not an ideal of reason but of imagination
+2;23;If men were born free, they would, so long as they remained free, form no conception of good and evil
+1;25;Happiness lies in virtuous activity, and perfect happiness lies in the best activity, which is contemplative
+2;27;Happiness is not an ideal of reason but of imagination
+1;29;If you were born with the ability to change someones perspective or emotions, never waste that gift. It is one of the most powerful gifts God can give the ability to influence
+2;31;What is rational is actual and what is actual is rational
+1;33;Whatever is reasonable is true, and whatever is true is reasonable
+2;35;Whatever is reasonable is true, and whatever is true is reasonable
+1;37;Philosophy is a battle against the bewitchment of our intelligence by means of language
+2;39;Philosophy is at once the most sublime and the most trivial of human pursuits
+1;41;Never hide things from hardcore thinkers. They get more aggravated, more provoked by confusion than the most painful truths
+2;43;All great thinkers are initially ridiculed  and eventually revered
+1;45;In everything, there is a share of everything
+2;47;Nothing is as it seems, but something is everything it is made out to be
+1;49;One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another
+2;51;Morality is not the doctrine of how we may make ourselves happy, but of how we may make ourselves worthy of happiness
+1;53;The brave man is he who overcomes not only his enemies but his pleasures
+2;55;Only weak thinkers do not love the sky
+1;57;All great thinkers are initially ridiculed  and eventually revered
+2;59;The unexamined life is not worth living
+1;61;All that is necessary for the triumph of evil is that good men do nothing
+2;63;The function of prayer is not to influence God, but rather to change the nature of the one who prays
+1;65;One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another
+2;67;All great thinkers are initially ridiculed  and eventually revered
+1;69;He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god
+2;71;The greatest happiness of the greatest number is the foundation of morals and legislation
+1;73;He who thinks great thoughts, often makes great errors
+2;75;Happiness is the highest good
+1;77;Philosophy is a battle against the bewitchment of our intelligence by means of language
+2;79;Metaphysics is a dark ocean without shores or lighthouse, strewn with many a philosophic wreck
+1;81;I think therefore I am
+2;83;It is the job of thinking people not to be on the side of the executioners
+1;85;It is undesirable to believe a proposition when there is no ground whatever for supposing it true
+2;87;If God did not exist, it would be necessary to invent Him
+1;89;Everything that exists is born for no reason, carries on living through weakness, and dies by accident
+2;91;Philosophy is a battle against the bewitchment of our intelligence by means of language
+1;93;If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things
+2;95;We are too weak to discover the truth by reason alone
+1;97;All great thinkers are initially ridiculed  and eventually revered
+2;99;Morality is not the doctrine of how we may make ourselves happy, but of how we may make ourselves worthy of happiness
+1;101;If God did not exist, it would be necessary to invent Him
+2;103;Even while they teach, men learn
+1;105;Good and evil, reward and punishment, are the only motives to a rational creature
+2;107;The brave man is he who overcomes not only his enemies but his pleasures
+1;109;Life must be understood backward. But it must be lived forward
+2;111;Is man merely a mistake of God's? Or God merely a mistake of man's
+2;113;God is dead! He remains dead! And we have killed him
+1;115;The life of man (in a state of nature) is solitary, poor, nasty, brutish, and short
+2;117;Man will never be free until the last king is strangled with the entrails of the last priest
+1;119;God is not willing to do everything, and thus take away our free will and that share of glory which belongs to us
+2;121;He who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god
+1;123;All that is necessary for the triumph of evil is that good men do nothing
+2;125;I think therefore I am
+1;127;Nothing is as it seems, but something is everything it is made out to be
+2;129;Man is the measure of all things
+1;131;I would never die for my beliefs because I might be wrong
+2;133;If God did not exist, it would be necessary to invent Him
+1;135;One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another
+1;137;Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it
+2;139;Virtue is nothing else than right reaso
+1;141;The momentum of the mind can be vexingly, involuntarily capricious
+2;143;Happiness is the highest good
+1;145;The unexamined life is not worth living
+2;147;The momentum of the mind can be vexingly, involuntarily capricious
+1;149;We are what we repeatedly do. Excellence, then, is not an act, but a habit
+2;151;Philosophy is at once the most sublime and the most trivial of human pursuits
+1;153;Everything that exists is born for no reason, carries on living through weakness, and dies by accident
+2;155;What is rational is actual and what is actual is rational
+1;157;All great thinkers are initially ridiculed  and eventually revered
+2;159;We live in the best of all possible worlds
+1;161;The mind is furnished with ideas by experience alone
+2;163;Things alter for the worse spontaneously, if they be not altered for the better designedly
+1;165;Whatever is reasonable is true, and whatever is true is reasonable
+2;167;Nothing is as it seems, but something is everything it is made out to be
+1;169;There is but one truly serious philosophical problem, and that is suicide
+2;171;Entities should not be multiplied unnecessarily
+1;173;Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it
+2;175;Good and evil, reward and punishment, are the only motives to a rational creature
+1;177;Man will never be free until the last king is strangled with the entrails of the last priest
+2;179;I dont know why we are here, but Im pretty sure it is not in order to enjoy ourselves
+1;181;The brave man is he who overcomes not only his enemies but his pleasures
+2;183;You can discover more about a person in an hour of play than in a year of conversation
+1;185;One cannot step twice in the same river
+2;187;Philosophy is a battle against the bewitchment of our intelligence by means of language
+1;189;It is the job of thinking people not to be on the side of the executioners
+2;191;One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another
+1;193;Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it
+2;195;Entities should not be multiplied unnecessarily
+1;197;Freedom is secured not by the fulfilling of one's desires, but by the removal of desire
+2;199;I would never die for my beliefs because I might be wrong
+1;201;It is the job of thinking people not to be on the side of the executioners
+2;203;Good and evil, reward and punishment, are the only motives to a rational creature
+1;205;I would never die for my beliefs because I might be wrong
+2;207;It is wrong always, everywhere and for everyone, to believe anything upon insufficient evidence
+1;209;Science is what you know. Philosophy is what you don't know
+2;209;The greatest happiness of the greatest number is the foundation of morals and legislation
+1;212;Morality is not the doctrine of how we may make ourselves happy, but of how we may make ourselves worthy of happiness
+2;212;What is rational is actual and what is actual is rational
+2;215;Leisure is the mother of philosophy
+1;217;It is undesirable to believe a proposition when there is no ground whatever for supposing it true
+2;219;Life must be understood backward. But it must be lived forward
+1;221;A little philosophy inclineth man's mind to atheism; but depth in philosophy bringeth mens minds about to religion
+2;223;Entities should not be multiplied unnecessarily
+1;225;Man is condemned to be free
+2;227;If you were born with the ability to change someones perspective or emotions, never waste that gift. It is one of the most powerful gifts God can give the ability to influence
+1;229;All that is necessary for the triumph of evil is that good men do nothing
+1;231;Nobody who says as little as he does is as simple as you'd think. It takes a lot to not say a lot, because when you're not talking, you're thinking, and he thinks a lot. My mum and dad talked all the time. Talkers don't think much; their words drown out any possibility of hearing their subconscious asking, Why did you say that? What do you really think
+2;231;The function of prayer is not to influence God, but rather to change the nature of the one who prays
+2;234;History is Philosophy teaching by examples
+1;236;Never hide things from hardcore thinkers. They get more aggravated, more provoked by confusion than the most painful truths
+2;238;If God did not exist, it would be necessary to invent Him
+1;240;We live in the best of all possible worlds
+1;242;Man is condemned to be free
+2;242;If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things
+1;245;The unexamined life is not worth living
+2;245;We are too weak to discover the truth by reason alone
+1;248;History honors the unique minority the majority cannot forget
+2;248;The greater the difficulty, the more glory in surmounting it
+1;251;The greater the difficulty, the more glory in surmounting it
+2;251;I would never die for my beliefs because I might be wrong
+1;254;To be is to be perceived
+2;254;Happiness is not an ideal of reason but of imagination
+1;257;The momentum of the mind can be vexingly, involuntarily capricious
+2;257;The only thing I know is that I know nothing
+1;260;A little philosophy inclineth man's mind to atheism; but depth in philosophy bringeth mens minds about to religion
+2;260;Liberty consists in doing what one desires
+1;263;All is for the best in the best of all possible worlds
+2;263;Happiness lies in virtuous activity, and perfect happiness lies in the best activity, which is contemplative
+1;266;Entities should not be multiplied unnecessarily
+2;266;History is Philosophy teaching by examples
+1;269;What is rational is actual and what is actual is rational
+2;269;No man's knowledge here can go beyond his experience
+2;272;Morality is not the doctrine of how we may make ourselves happy, but of how we may make ourselves worthy of happiness
+1;274;One cannot step twice in the same river
+2;276;Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it
+1;278;You can discover more about a person in an hour of play than in a year of conversation
+1;280;It is undesirable to believe a proposition when there is no ground whatever for supposing it true
+2;280;Whereof one cannot speak, thereof one must be silent
+1;283;God is dead! He remains dead! And we have killed him
+2;283;The only thing I know is that I know nothing
+1;286;Science is what you know. Philosophy is what you don't know
+2;288;The unexamined life is not worth living
+1;290;In everything, there is a share of everything
+2;292;The greatest happiness of the greatest number is the foundation of morals and legislation
+1;294;In everything, there is a share of everything
+2;296;You can discover more about a person in an hour of play than in a year of conversation
+1;298;It is the job of thinking people not to be on the side of the executioners
+2;298;This is patently absurd; but whoever wishes to become a philosopher must learn not to be frightened by absurdities
+1;301;The unexamined life is not worth living
+2;303;It is the job of thinking people not to be on the side of the executioners
+1;305;Freedom is secured not by the fulfilling of one's desires, but by the removal of desire
+2;307;Things alter for the worse spontaneously, if they be not altered for the better designedly
+1;309;Whatever is reasonable is true, and whatever is true is reasonable
+2;311;It is one thing to show a man that he is in error, and another to put him in possession of truth
+1;313;There is but one truly serious philosophical problem, and that is suicide
+2;315;If men were born free, they would, so long as they remained free, form no conception of good and evil
+1;317;It is wrong always, everywhere and for everyone, to believe anything upon insufficient evidence
+2;319;No man's knowledge here can go beyond his experience
+1;321;Virtue is nothing else than right reaso
+2;323;Even while they teach, men learn
+1;325;That man is wisest who, like Socrates, realizes that his wisdom is worthless
+2;325;Life must be understood backward. But it must be lived forward
+1;328;That man is wisest who, like Socrates, realizes that his wisdom is worthless
+2;328;Even while they teach, men learn
+1;331;The function of prayer is not to influence God, but rather to change the nature of the one who prays
+2;331;No man's knowledge here can go beyond his experience
+1;334;The mind is furnished with ideas by experience alon
+2;334;Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it
+1;337;If you were born with the ability to change someones perspective or emotions, never waste that gift. It is one of the most powerful gifts God can give the ability to influence
+2;337;The life of man (in a state of nature) is solitary, poor, nasty, brutish, and short
+1;340;History is Philosophy teaching by examples
+2;340;Man is condemned to be free
+1;343;A little philosophy inclineth man's mind to atheism; but depth in philosophy bringeth mens minds about to religion
+2;343;No man's knowledge here can go beyond his experience
+1;346;Freedom is secured not by the fulfilling of one's desires, but by the removal of desire
+2;346;The momentum of the mind can be vexingly, involuntarily capricious
+1;349;Everything that exists is born for no reason, carries on living through weakness, and dies by accident
+2;351;You can discover more about a person in an hour of play than in a year of conversation
+1;353;Everything that exists is born for no reason, carries on living through weakness, and dies by accident
+2;353;Happiness is not an ideal of reason but of imagination
+1;356;If you were born with the ability to change someones perspective or emotions, never waste that gift. It is one of the most powerful gifts God can give the ability to influence
+2;356;It is undesirable to believe a proposition when there is no ground whatever for supposing it true
+1;359;Whatever is reasonable is true, and whatever is true is reasonable
+2;361;If men were born free, they would, so long as they remained free, form no conception of good and evil
+1;363;The greatest happiness of the greatest number is the foundation of morals and legislation
+2;365;It is the job of thinking people not to be on the side of the executioners
+1;367;Morality is not the doctrine of how we may make ourselves happy, but of how we may make ourselves worthy of happiness
+2;369;One cannot conceive anything so strange and so implausible that it has not already been said by one philosopher or another
+1;371;That man is wisest who, like Socrates, realizes that his wisdom is worthless
+2;373;Man is the measure of all things
